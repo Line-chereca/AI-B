@@ -85,3 +85,6 @@ def calculadora() :
         # Se não der nada então aparece isto
         else:
             print("Operação não reconhecida")
+
+# Executa a calculadora
+calculadora()
