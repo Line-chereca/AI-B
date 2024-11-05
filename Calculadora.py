@@ -73,3 +73,11 @@ def calculadora() :
             conta = str(num1) + "/" + str(num2) + "=" + str(result4)
             lista_contas.append(conta)
             print(conta)
+
+        # Se precisar de ver as últimas 5 contas
+        elif operador == "Hist":
+          tamanho = len(lista_contas)
+          if tamanho >= 5:
+           sub_lista = lista_contas [tamanho-5:tamanho]
+          for item in sub_lista:
+            print(item)
