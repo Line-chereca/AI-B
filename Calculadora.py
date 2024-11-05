@@ -81,3 +81,7 @@ def calculadora() :
            sub_lista = lista_contas [tamanho-5:tamanho]
           for item in sub_lista:
             print(item)
+        
+        # Se não der nada então aparece isto
+        else:
+            print("Operação não reconhecida")
