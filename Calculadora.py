@@ -44,3 +44,32 @@ def calculadora() :
         result2 = subtração(num1, num2)
         result3 = multiplicação(num1, num2)
         result4 = divisão(num1, num2)
+
+       
+        # Se for soma então vai adicionar o num1 ao num2
+        if operador == "soma":
+            print("Resultado da soma:" + str(result1))
+            conta= str(num1) + "+" + str(num2) + "=" + str(result1)
+            lista_contas.append(conta)
+            print(conta)
+            
+        # Se for subtração então vai retirar o num2 ao num1
+        elif operador == "sub":
+            print("Resultado da subtração:" + str(result2))
+            conta= str(num1) + "-" + str(num2) + "=" + str(result2)
+            lista_contas.append(conta)
+            print(conta)
+
+        # Se for multiplicação então vai fazer o num1 vezes o num2
+        elif operador == "multi":
+            print("Resultado da multiplicação:" + str(result3))
+            conta = str(num1) + "x" + str(num2) + "=" + str(result3)
+            lista_contas.append(conta)
+            print(conta)
+
+        # Se for divisão então vai dividir o num2 pelo num1
+        elif operador == "div":
+            print("Resultado da divisão:" + str(result4))
+            conta = str(num1) + "/" + str(num2) + "=" + str(result4)
+            lista_contas.append(conta)
+            print(conta)
