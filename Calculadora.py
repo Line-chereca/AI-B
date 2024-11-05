@@ -38,3 +38,9 @@ def calculadora() :
             else:
                 print("Bem da caro")
                 break
+        
+        # As diferentes contas e os seus resultados
+        result1 = soma(num1, num2)
+        result2 = subtração(num1, num2)
+        result3 = multiplicação(num1, num2)
+        result4 = divisão(num1, num2)
