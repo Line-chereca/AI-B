@@ -1,3 +1,6 @@
+#Cumprimento ao entrar/Saudação
+print("Bem-Vindo, Welcome, Bien-Venido, não sei mais ")
+
 # Função para soma
 def soma(x, y):
     return x + y
